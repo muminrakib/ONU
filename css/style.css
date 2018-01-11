@@ -1,0 +1,141 @@
+* {
+	font-family: 'Alegreya', serif;
+	text-align: center;
+}
+.navbar {
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	font-weight: bold;
+}
+#navbarNav {
+	margin-left: 30%;
+}
+#navbarNav a {
+	color: white;
+	margin: 10px;
+}
+
+.onu {
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,50%);
+}
+.onu h1 {
+	border: 3px solid #fff;
+	padding: 20px;
+	display: inline-block;
+}
+.onu h1 b {
+	color: green;
+}
+@media (max-width: 850px) {
+	.onu {
+		display: none;
+	}
+}
+#about i {
+	color: green;
+}
+/*services starts here*/
+#services {
+	position: relative;
+}
+#services figcaption {
+	color: green;
+	background-color: rgba(0,0,0,0.3);
+	width: 275px ;
+	height: 243px ;
+	position: absolute;
+	top: 32%;
+	display: none;
+}
+#services figcaption i {
+	padding: 30%;
+}
+/*portfolio starts here*/
+@media (min-width: 800px) {
+	#portfolio button {
+	width: 10%
+}
+}
+/*pricing starts here*/
+#pricing ul{
+	background-color: #000;
+	height: 450px;
+	border-radius: 15px 15px 0 0;
+}
+#pricing .list-group-item{
+	border: 0;
+	background: #000;
+    color: #fff;
+}
+#pricing ul li:first-child{
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin:30px 50px;
+	height: 40%;
+	padding: 30px;
+}	
+#pricing ul li:last-child{
+    border: 2px solid transparent;
+    background-color: #fff;
+    border-radius: 5%;
+    padding: 5px;
+    text-decoration: none;
+    margin:10px;
+}
+#pricing ul:hover li:first-child,
+#pricing ul:hover li:last-child{
+	background-color: #fff;
+	color: #87d37c;
+}
+#pricing ul:hover,#pricing ul:hover .list-group-item{
+	color: #fff;
+	background-color: green;
+}
+@media (max-width: 450px) {
+	#pricing .list-group-item,
+	#pricing ul li:first-child,
+	#pricing ul {
+		padding: 4px;
+		margin: 4px;
+	}
+}
+
+/*counter starts here*/
+#counter {
+	color: white;
+	
+	
+}
+#counter .col {
+	background-color: navy;
+	border: 2px solid white;
+	border-bottom: 0;
+}
+#contact i {
+	color: green;
+}
+#maps {
+	width: 100%;
+	height: 340px;
+}
+#contact .bg-primary {
+	color: white;
+}
+#contact .form-group {
+	width: 60%;
+	justify-content: center;
+}
+
+
+
+
+
+
+
